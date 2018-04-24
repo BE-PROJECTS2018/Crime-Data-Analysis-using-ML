@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72B58B41-33F9-47FC-9F90-B4149105108A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartSystems_NS</RootNamespace>
+    <AssemblyName>SmartSystems</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\SmartSystems.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.19726, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="Interop.VALIDATEUSERLib, Version=1.0.0.0, Culture=neutral" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Ajax, Version=3.0.31106.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.DynamicData\3.5.0.0__31bf3856ad364e35\System.Web.DynamicData.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2009.1.527.35, Culture=neutral, PublicKeyToken=cf5238f6376fbd28, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Web.UI, Version=2008.3.1314.20, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddEvidance.aspx" />
+    <Content Include="Add_Crime.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Interop.VALIDATEUSERLib.dll" />
+    <Content Include="bin\System.Web.Ajax.dll" />
+    <Content Include="bin\System.Web.DataVisualization.dll" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\ValidateUser.dll" />
+    <Content Include="Calc_CrimeSuspect.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="Charttest.aspx" />
+    <Content Include="CriminalList.aspx" />
+    <Content Include="CriminalList_Gender.aspx" />
+    <Content Include="CriminalList_region.aspx" />
+    <Content Include="EditCrimeDetails.aspx" />
+    <Content Include="frm_Welcome.aspx" />
+    <Content Include="frm_Home.aspx" />
+    <Content Include="frm_ManageUser.aspx" />
+    <Content Include="frm_Report.aspx" />
+    <Content Include="IMG\button.PNG" />
+    <Content Include="IMG\Crimetype.png" />
+    <Content Include="IMG\glass_bar.jpg" />
+    <Content Include="IMG\Home-img.png" />
+    <Content Include="IMG\icon-search.gif" />
+    <Content Include="IMG\investigation.jpg" />
+    <Content Include="IMG\investigations.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="SearchCriminal.aspx" />
+    <Content Include="Topmenu.ascx" />
+    <Content Include="UploadCrime.aspx" />
+    <Content Include="UserList.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XMLFiles\Domain.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEvidance.aspx.cs">
+      <DependentUpon>AddEvidance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEvidance.aspx.designer.cs">
+      <DependentUpon>AddEvidance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Crime.aspx.cs">
+      <DependentUpon>Add_Crime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Crime.aspx.designer.cs">
+      <DependentUpon>Add_Crime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calc_CrimeSuspect.aspx.cs">
+      <DependentUpon>Calc_CrimeSuspect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calc_CrimeSuspect.aspx.designer.cs">
+      <DependentUpon>Calc_CrimeSuspect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Charttest.aspx.cs">
+      <DependentUpon>Charttest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Charttest.aspx.designer.cs">
+      <DependentUpon>Charttest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code_ControlBind.cs" />
+    <Compile Include="CriminalList.aspx.cs">
+      <DependentUpon>CriminalList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CriminalList.aspx.designer.cs">
+      <DependentUpon>CriminalList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CriminalList_Gender.aspx.cs">
+      <DependentUpon>CriminalList_Gender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CriminalList_Gender.aspx.designer.cs">
+      <DependentUpon>CriminalList_Gender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CriminalList_region.aspx.cs">
+      <DependentUpon>CriminalList_region.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CriminalList_region.aspx.designer.cs">
+      <DependentUpon>CriminalList_region.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCrimeDetails.aspx.cs">
+      <DependentUpon>EditCrimeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCrimeDetails.aspx.designer.cs">
+      <DependentUpon>EditCrimeDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Welcome.aspx.cs">
+      <DependentUpon>frm_Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Welcome.aspx.designer.cs">
+      <DependentUpon>frm_Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Home.aspx.cs">
+      <DependentUpon>frm_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Home.aspx.designer.cs">
+      <DependentUpon>frm_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ManageUser.aspx.cs">
+      <DependentUpon>frm_ManageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_ManageUser.aspx.designer.cs">
+      <DependentUpon>frm_ManageUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Report.aspx.cs">
+      <DependentUpon>frm_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Report.aspx.designer.cs">
+      <DependentUpon>frm_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchCriminal.aspx.cs">
+      <DependentUpon>SearchCriminal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchCriminal.aspx.designer.cs">
+      <DependentUpon>SearchCriminal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Topmenu.ascx.cs">
+      <DependentUpon>Topmenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Topmenu.ascx.designer.cs">
+      <DependentUpon>Topmenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadCrime.aspx.cs">
+      <DependentUpon>UploadCrime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadCrime.aspx.designer.cs">
+      <DependentUpon>UploadCrime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Release\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\Refactor\" />
+    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="Template\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50925</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
